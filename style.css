@@ -1,0 +1,123 @@
+@media  (max-width:952px) {
+    .navbar {
+        height: 60px;
+    }
+    .navbar ul li a{
+      color:red;
+    }
+   .home:hover {
+    background-color: greenyellow;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+  }
+  .search {
+    visibility: hidden;
+  }
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: aquamarine;
+}
+.navbar ul {
+    overflow: auto;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: red;
+    padding-left: 5px;
+}
+
+.search {
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 90px;
+}
+
+.search input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar li a:hover {
+    background-color: greenyellow;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.nav-items {
+    margin-top: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+
+}
+
+.change-1 {
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.change-2 {
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.change-3 {
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.change-4 {
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.cat, .elephant, .lion, .fox{
+    float: left;
+}
+.deer, .tiger, .squirrel, .zebra{
+    float: right;
+}
+body {
+    background-color: yellowgreen;
+}
+
+p {
+    width: 60%;
+}
+
+.bg-change {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: snow;
+    transition: 5s;
+}
