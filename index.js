@@ -29,9 +29,4 @@ $(".navbar .contact").click(function() {
 
 $(document).scroll(function() {
     $(".navbar").addClass("bg-change");
-    setTimeout(() => {
-        if (window.scrollY === 0 && $(".navbar").classList.contains("bg-change")) {
-          $(".navbar").classList.remove("bg-change");
-        }
-      }, 1000);
 })
